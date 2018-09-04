@@ -13,9 +13,9 @@ public class LibraryDatabase {
 	
 	public LibraryDatabase() throws Exception {
 				
-		String sql_username = "jp5321";
-		String sql_passwd = "t9zUNsUcl";
-		myConn = DriverManager.getConnection("jdbc:mysql://webdev.cislabs.uncw.edu/narayan13", sql_username, sql_passwd);
+		String sql_username = "username";
+		String sql_passwd = "password";
+		myConn = DriverManager.getConnection("url", sql_username, sql_passwd);
 		
 		System.out.println("DB connection successful");
 	}
