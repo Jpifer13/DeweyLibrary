@@ -1,5 +1,3 @@
-use jp5321;
-
 drop table if exists odetails;
 drop table if exists orders;
 drop table if exists employees;
